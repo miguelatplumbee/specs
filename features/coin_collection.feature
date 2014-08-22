@@ -10,7 +10,7 @@ Feature: Coin Collection
 
   Scenario: User balance is updated after collecting coins
     Given user taps collect coins button
-    Then my balance should be 1,300
+    Then my balance should be 1,200
 
   Scenario: Collection timer is visible after collecting coins
     Given user taps collect coins button
